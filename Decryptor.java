@@ -15,7 +15,7 @@ public class Decryptor{
         
         if(args[0].equals("-i")){
             if(args.length == 2){
-                interactiveMode(args[1]);
+                 interactiveMode(args[1]);
             }else{
                 printUsage();
             }
